@@ -1,0 +1,424 @@
+{
+  "en": {
+    "meta": {
+      "title": "Constantine, Algeria - City of Bridges",
+      "lang": "en",
+      "dir": "ltr"
+    },
+    "nav": {
+      "logo": "Constantine",
+      "home": "Home",
+      "history": "History",
+      "bridges": "Bridges",
+      "landmarks": "Landmarks",
+      "culture": "Culture",
+      "gallery": "Gallery"
+    },
+    "hero": {
+      "title": "Constantine",
+      "subtitle": "The City of Bridges",
+      "tagline": "One of the oldest cities in North Africa",
+      "cta": "Discover More"
+    },
+    "facts": {
+      "years": "Years of History",
+      "bridges": "Iconic Bridges",
+      "elevation": "Elevation",
+      "population": "Population"
+    },
+    "history": {
+      "title": "A Journey Through Time",
+      "intro": "Constantine's history spans over two millennia, making it one of the oldest and most significant cities in North Africa.",
+      "events": {
+        "cirta": {
+          "date": "203 BC",
+          "title": "Cirta - Numidian Capital",
+          "desc": "Originally called Cirta, the city served as the capital of the Berber kingdom of Numidia. In 112 BC, it was the capital of King Jugurtha."
+        },
+        "constantine": {
+          "date": "313 AD",
+          "title": "Renamed After Constantine",
+          "desc": "After being destroyed in 311 AD during civil war, the city was rebuilt and renamed \"Constantina\" in honor of Emperor Constantine the Great."
+        },
+        "ottoman": {
+          "date": "1529",
+          "title": "Ottoman Era",
+          "desc": "The city became part of the Ottoman Empire, ruled by a Turkish bey. Salah Bey (1770-1792) greatly embellished the city with much of the Islamic architecture still visible today."
+        },
+        "french": {
+          "date": "1837",
+          "title": "French Colonization",
+          "desc": "After fierce resistance led by Ahmed Bey, the city was captured by French forces. It remained under French rule until Algeria's independence in 1962."
+        },
+        "culture2015": {
+          "date": "2015",
+          "title": "Arab Capital of Culture",
+          "desc": "Constantine was named the Arab Capital of Culture, celebrating its rich heritage and contributions to Arab and Mediterranean civilization."
+        }
+      }
+    },
+    "bridges": {
+      "title": "The City of Bridges",
+      "intro": "Constantine's dramatic topography—a rocky plateau divided by the deep Rhumel River gorge—necessitated the construction of magnificent bridges that have become symbols of the city.",
+      "items": {
+        "sidimcid": {
+          "name": "Sidi M'Cid Bridge",
+          "spec": "168m suspension bridge • Opened 1912",
+          "desc": "The most iconic and highest bridge in Constantine. A stunning suspension bridge offering breathtaking views of the gorge below."
+        },
+        "babelkantra": {
+          "name": "Bab El Kantra Bridge",
+          "spec": "Historic bridge • Built 1792",
+          "desc": "The oldest surviving bridge, leading north from the city. A testament to Ottoman engineering excellence."
+        },
+        "sidirached": {
+          "name": "Sidi Rached Viaduct",
+          "spec": "447m viaduct • 27 arches • 1912",
+          "desc": "A magnificent viaduct designed by Paul Séjourné, featuring 27 elegant arches spanning the gorge."
+        },
+        "mellahslimane": {
+          "name": "Mellah Slimane Bridge",
+          "spec": "Pedestrian bridge • With elevator",
+          "desc": "A modern pedestrian bridge featuring a glass elevator that descends into the gorge, offering unique perspectives of the city."
+        },
+        "falls": {
+          "name": "Bridge of the Falls",
+          "spec": "Arched bridge • Built 1925",
+          "desc": "A picturesque series of arches built atop a waterfall, creating one of the most romantic spots in the city."
+        },
+        "salahbey": {
+          "name": "Salah Bey Viaduct",
+          "spec": "Modern cable-stayed bridge",
+          "desc": "A stunning modern addition to the city's bridge collection, named after the famous Ottoman ruler who beautified Constantine."
+        }
+      }
+    },
+    "landmarks": {
+      "title": "Landmarks & Monuments",
+      "intro": "From ancient ruins to Ottoman palaces, Constantine offers a wealth of historical and cultural sites to explore.",
+      "items": {
+        "emir": {
+          "name": "Emir Abdelkader Mosque",
+          "desc": "A magnificent modern mosque, one of the largest in Algeria, serving as both a place of worship and a university."
+        },
+        "ahmedbey": {
+          "name": "Ahmed Bey Palace",
+          "desc": "The 19th-century palace of the last Ottoman bey, showcasing traditional Algerian architecture and beautiful gardens."
+        },
+        "cirta": {
+          "name": "Cirta Museum",
+          "desc": "Formerly the Gustave Mercier Museum, housing an impressive collection of ancient and modern Algerian art and artifacts."
+        },
+        "greatmosque": {
+          "name": "Great Mosque of Constantine",
+          "desc": "A historical mosque dating back to 1136, one of the oldest religious buildings in the city."
+        },
+        "monument": {
+          "name": "Monument aux Morts",
+          "desc": "A WWI memorial monument honoring those who lost their lives, featuring impressive architecture and panoramic views."
+        },
+        "tiddis": {
+          "name": "Tiddis Ruins",
+          "desc": "The ancient Roman city of Tiddis, located nearby, offers a glimpse into the region's Roman past with well-preserved ruins."
+        },
+        "aqueduct": {
+          "name": "Roman Aqueduct",
+          "desc": "Impressive ruins of the Antonian Roman aqueduct that once supplied water to the ancient city."
+        },
+        "library": {
+          "name": "Municipal Library",
+          "desc": "A beautiful historic building housing a significant collection of manuscripts and books, reflecting the city's intellectual heritage."
+        }
+      }
+    },
+    "culture": {
+      "title": "Culture & Traditions",
+      "intro": "Constantine's rich cultural heritage reflects its diverse history, from Berber and Arab traditions to Ottoman and Mediterranean influences.",
+      "items": {
+        "arts": {
+          "title": "Arts & Crafts",
+          "desc": "Constantine is renowned for its metalwork, particularly silver jewelry and decorative items. The city's artisans continue centuries-old traditions of intricate craftsmanship, producing beautiful filigree work and ornate pieces that are sought after throughout Algeria."
+        },
+        "cuisine": {
+          "title": "Cuisine",
+          "desc": "The city's signature dish is Chakhtchoukha, a traditional stew made with torn flatbread (ragout), lamb, and aromatic spices. Other specialties include Lham Lahlou (sweet lamb dish) and various couscous preparations."
+        },
+        "music": {
+          "title": "Music",
+          "desc": "Constantine has a rich musical heritage, particularly Malouf, a form of Andalusian classical music that was recognized by UNESCO as intangible cultural heritage. The city hosts music festivals celebrating this ancient art form."
+        },
+        "architecture": {
+          "title": "Architecture",
+          "desc": "The city showcases a unique blend of architectural styles: ancient Roman ruins, Ottoman-era mosques and palaces, French colonial buildings, and modern structures. The Casbah (Swika) preserves traditional urban architecture."
+        },
+        "intellectual": {
+          "title": "Intellectual Heritage",
+          "desc": "As the Arab Capital of Culture 2015, Constantine has a strong intellectual tradition. It's home to several universities and has produced notable scholars, writers, and artists throughout its history."
+        },
+        "kasbah": {
+          "title": "The Kasbah",
+          "desc": "Known locally as Swika, the historic Kasbah quarter features narrow winding streets, traditional houses, and historic mosques. It offers an authentic glimpse into the city's Ottoman past."
+        }
+      }
+    },
+    "gallery": {
+      "title": "Gallery",
+      "intro": "Experience the beauty of Constantine through images of its iconic landmarks and stunning landscapes.",
+      "items": {
+        "sidimcid": "Sidi M'Cid Bridge",
+        "emir": "Emir Abdelkader Mosque",
+        "ahmedbey": "Ahmed Bey Palace",
+        "panorama": "City Panorama",
+        "sidirached": "Sidi Rached Viaduct",
+        "sunset": "Sunset Over the Gorge"
+      }
+    },
+    "visit": {
+      "title": "Plan Your Visit",
+      "location": {
+        "title": "Location",
+        "desc": "Northeastern Algeria, 80 km from the Mediterranean coast",
+        "coords": "Coordinates: 36°21'N 6°36'E",
+        "elevation": "Elevation: 694m above sea level"
+      },
+      "climate": {
+        "title": "Climate",
+        "desc": "Mediterranean climate with hot, dry summers and mild, moist winters",
+        "best": "Best time to visit: Spring (March-May) and Fall (September-November)"
+      },
+      "getting": {
+        "title": "Getting There",
+        "desc": "Mohamed Boudiaf International Airport serves the city with connections to major Algerian and international destinations.",
+        "transport": "Trains and buses connect Constantine to Algiers, Oran, and other major cities."
+      },
+      "stay": {
+        "title": "Where to Stay",
+        "desc": "Constantine offers a range of accommodations from traditional guesthouses in the Kasbah to modern hotels with views of the famous bridges."
+      }
+    },
+    "footer": {
+      "title": "Constantine, Algeria",
+      "subtitle": "The City of Bridges",
+      "culture2015": "Arab Capital of Culture 2015",
+      "quicklinks": "Quick Links",
+      "learnmore": "Learn More",
+      "copyright": "© 2026 Constantine Tourism. All rights reserved.",
+      "info": "Information compiled from public sources for educational purposes."
+    },
+    "lang": {
+      "switch": "العربية",
+      "current": "English"
+    }
+  },
+  "ar": {
+    "meta": {
+      "title": "قسنطينة، الجزائر - مدينة الجسور",
+      "lang": "ar",
+      "dir": "rtl"
+    },
+    "nav": {
+      "logo": "قسنطينة",
+      "home": "الرئيسية",
+      "history": "التاريخ",
+      "bridges": "الجسور",
+      "landmarks": "المعالم",
+      "culture": "الثقافة",
+      "gallery": "المعرض"
+    },
+    "hero": {
+      "title": "قسنطينة",
+      "subtitle": "مدينة الجسور",
+      "tagline": "واحدة من أقدم المدن في شمال إفريقيا",
+      "cta": "اكتشف المزيد"
+    },
+    "facts": {
+      "years": "سنة من التاريخ",
+      "bridges": "جسور أيقونية",
+      "elevation": "الارتفاع",
+      "population": "السكان"
+    },
+    "history": {
+      "title": "رحلة عبر الزمن",
+      "intro": "يمتد تاريخ قسنطينة لأكثر من ألفي عام، مما يجعلها واحدة من أقدم وأهم المدن في شمال إفريقيا.",
+      "events": {
+        "cirta": {
+          "date": "203 ق.م",
+          "title": "سيرتا - عاصمة نوميديا",
+          "desc": "كانت المدينة تُدعى سيرتا، وخدمت كعاصمة للمملكة الأمازيغية نوميديا. في عام 112 ق.م، كانت عاصمة الملك يوغرطة."
+        },
+        "constantine": {
+          "date": "313 م",
+          "title": "تسميتها باسم قسنطينة",
+          "desc": "بعد تدميرها عام 311 م خلال الحرب الأهلية، أعيد بناء المدينة وأُطلق عليها اسم \"قسطنطينة\" تكريماً للإمبراطور قسطنطين الكبير."
+        },
+        "ottoman": {
+          "date": "1529",
+          "title": "العهد العثماني",
+          "desc": "أصبحت المدينة جزءاً من الدولة العثمانية، يحكمها باي تركي. زين صالح باي (1770-1792) المدينة بشكل كبير، ولا يزال الكثير من العمارة الإسلامية التي بناها مرئياً حتى اليوم."
+        },
+        "french": {
+          "date": "1837",
+          "title": "الاستعمار الفرنسي",
+          "desc": "بعد مقاومة شرسة قادها أحمد باي، سقطت المدينة في أيدي القوات الفرنسية. ظلت تحت الحكم الفرنسي حتى استقلال الجزائر عام 1962."
+        },
+        "culture2015": {
+          "date": "2015",
+          "title": "عاصمة الثقافة العربية",
+          "desc": "تم اختيار قسنطينة كعاصمة الثقافة العربية، احتفاءً بتراثها الغني وإسهاماتها في الحضارة العربية والمتوسطية."
+        }
+      }
+    },
+    "bridges": {
+      "title": "مدينة الجسور",
+      "intro": "التضاريس الدرامية لقسنطينة - هضبة صخرية مقسمة بوادي الرمال العميق - استوجبت بناء جسور رائعة أصبحت رموزاً للمدينة.",
+      "items": {
+        "sidimcid": {
+          "name": "جسر سيدي مسيد",
+          "spec": "جسر معلق 168م • افتتح 1912",
+          "desc": "أكثر الجسور أيقونية وارتفاعاً في قسنطينة. جسر معلق مذهل يوفر إطلالات خلابة على الوادي من الأسفل."
+        },
+        "babelkantra": {
+          "name": "جسر باب القنطرة",
+          "spec": "جسر تاريخي • بني 1792",
+          "desc": "أقدم جسر باقٍ، يؤدي شمالاً خارج المدينة. شاهد على براعة الهندسة العثمانية."
+        },
+        "sidirached": {
+          "name": "جسر سيدي راشد",
+          "spec": "جسر 447م • 27 قوساً • 1912",
+          "desc": "جسر رائع صممه بول سيجورنيه، يتميز بـ 27 قوساً أنيقاً تمتد عبر الوادي."
+        },
+        "mellahslimane": {
+          "name": "جسر ملاح سليمان",
+          "spec": "جسر للمشاة • مع مصعد",
+          "desc": "جسر حديث للمشاة يتمتع بمصعد زجاجي يهبط إلى الوادي، مما يوفر منظوراً فريداً للمدينة."
+        },
+        "falls": {
+          "name": "جسر الشلالات",
+          "spec": "جسر مقوس • بني 1925",
+          "desc": "سلسلة خلابة من الأقواس بُنيت فوق شلال، مما يخلق واحداً من أكثر الأماكن رومانسية في المدينة."
+        },
+        "salahbey": {
+          "name": "جسر صالح باي",
+          "spec": "جسر حديث معلق بالكابلات",
+          "desc": "إضافة حديثة مذهلة لمجموعة جسور المدينة، سُمي على اسم الحاكم العثماني الشهير الذي جمّل قسنطينة."
+        }
+      }
+    },
+    "landmarks": {
+      "title": "المعالم والأثار",
+      "intro": "من الآثار القديمة إلى القصور العثمانية، تقدم قسنطينة ثروة من المواقع التاريخية والثقافية للاستكشاف.",
+      "items": {
+        "emir": {
+          "name": "مسجد الأمير عبد القادر",
+          "desc": "مسجد حديث رائع، أحد أكبر المساجد في الجزائر، يخدم كدار للعباسة وجامعة."
+        },
+        "ahmedbey": {
+          "name": "قصر أحمد باي",
+          "desc": "قصر من القرن التاسع عشر لآخر باي عثماني، يعرض العمارة الجزائرية التقليدية وحدائق جميلة."
+        },
+        "cirta": {
+          "name": "متحف سيرتا",
+          "desc": "كان سابقاً متحف غوستاف ميرسيه، ويضم مجموعة رائعة من الفن والتحف الجزائرية القديمة والحديثة."
+        },
+        "greatmosque": {
+          "name": "الجامع الكبير بقسنطينة",
+          "desc": "مسجد تاريخي يعود تاريخه إلى عام 1136، أحد أقدم المباني الدينية في المدينة."
+        },
+        "monument": {
+          "name": "نصب تذكاري للحرب",
+          "desc": "نصب تذكاري للحرب العالمية الأولى تكريماً لمن ضحوا بحياتهم، يتميز بعمارة رائعة وإطلالات بانورامية."
+        },
+        "tiddis": {
+          "name": "آثار تيديس",
+          "desc": "المدينة الرومانية القديمة تيديس، تقع بالقرب، تقدم لمحة عن الماضي الروماني للمنطقة بآثار محفوظة جيداً."
+        },
+        "aqueduct": {
+          "name": "القنطرة الرومانية",
+          "desc": "آثار رائعة للقنطرة الرومانية الأنطونية التي كانت تزود المدينة القديمة بالمياه."
+        },
+        "library": {
+          "name": "المكتبة البلدية",
+          "desc": "مبنى تاريخي جميل يضم مجموعة كبيرة من المخطوطات والكتب، يعكس التراث الفكري للمدينة."
+        }
+      }
+    },
+    "culture": {
+      "title": "الثقافة والتقاليد",
+      "intro": "يعكس التراث الثقافي الغني لقسنطينة تاريخها المتنوع، من التقاليد الأمازيغية والعربية إلى التأثيرات العثمانية والمتوسطية.",
+      "items": {
+        "arts": {
+          "title": "الفنون والحرف",
+          "desc": "تشتهر قسنطينة بأعمالها المعدنية، خاصة المجوهرات الفضية والعناصر الزخرفية. يستمر حرفيو المدينة في تقاليد قديمة من الحرف اليدوية المتقنة، منتجين أعمالاً رائعة من التركيب الفيليجري والقطع المزخرفة المطلوبة في جميع أنحاء الجزائر."
+        },
+        "cuisine": {
+          "title": "المطبخ",
+          "desc": "الطبق المميز للمدينة هو الشخشوخة، يخنة تقليدية مصنوعة من الخبز المسحوق (الرغيس) ولحم الضأن والتوابل العطرية. من التخصصات الأخرى لحم حلو وأطباق الكسكس المتنوعة."
+        },
+        "music": {
+          "title": "الموسيقى",
+          "desc": "لدى قسنطينة تراث موسيقي غني، خاصة الموسيقى الأندلسية (المولود)، التي اعترفت بها اليونسكو كتراث ثقافي غير مادي. تستضيف المدينة مهرجانات موسيقية تحتفل بهذا الفن العريق."
+        },
+        "architecture": {
+          "title": "العمارة",
+          "desc": "تعرض المدينة مزيجاً فريداً من الأنماط المعمارية: آثار رومانية قديمة، مساجد وقصور من العهد العثماني، مباني استعمارية فرنسية، وهياكل حديثة. تحافظ القصبة (السويقة) على العمارة الحضرية التقليدية."
+        },
+        "intellectual": {
+          "title": "التراث الفكري",
+          "desc": "باعتبارها عاصمة الثقافة العربية 2015، لدى قسنطينة تقليد فكري قوي. فهي موطن لعدة جامعات وأنجبت علماء وكتاباً وفنانين بارزين عبر تاريخها."
+        },
+        "kasbah": {
+          "title": "القصبة",
+          "desc": "المعروفة محلياً بالسويقة، تتميز حي القصبة التاريخي بشوارع ضيقة متعرجة ومنازل تقليدية ومساجد تاريخية. تقدم لمحة أصيلة عن الماضي العثماني للمدينة."
+        }
+      }
+    },
+    "gallery": {
+      "title": "المعرض",
+      "intro": "استمتع بجمال قسنطينة من خلال صور معالمها الشهيرة ومناظرها الطبيعية الخلابة.",
+      "items": {
+        "sidimcid": "جسر سيدي مسيد",
+        "emir": "مسجد الأمير عبد القادر",
+        "ahmedbey": "قصر أحمد باي",
+        "panorama": "بانوراما المدينة",
+        "sidirached": "جسر سيدي راشد",
+        "sunset": "الغروب فوق الوادي"
+      }
+    },
+    "visit": {
+      "title": "خطط لزيارتك",
+      "location": {
+        "title": "الموقع",
+        "desc": "شمال شرق الجزائر، على بعد 80 كم من ساحل البحر المتوسط",
+        "coords": "الإحداثيات: 36°21'N 6°36'E",
+        "elevation": "الارتفاع: 694م فوق سطح البحر"
+      },
+      "climate": {
+        "title": "المناخ",
+        "desc": "مناخ متوسطي مع صيف حار وجاف وشتاء معتدل ورطب",
+        "best": "أفضل وقت للزيارة: الربيع (مارس-مايو) والخريف (سبتمبر-نوفمبر)"
+      },
+      "getting": {
+        "title": "كيف تصل",
+        "desc": "يخدم مطار محمد بوضياف الدولي المدينة مع ربطات إلى الوجهات الجزائرية والدولية الرئيسية.",
+        "transport": "تربط القطارات والحافلات قسنطينة بالجزائر العاصمة ووهران ومدن رئيسية أخرى."
+      },
+      "stay": {
+        "title": "أين تقيم",
+        "desc": "تقدم قسنطينة مجموعة متنوعة من أماكن الإقامة من بيوت الضيافة التقليدية في القصبة إلى الفنادق الحديثة بإطلالات على الجسور الشهيرة."
+      }
+    },
+    "footer": {
+      "title": "قسنطينة، الجزائر",
+      "subtitle": "مدينة الجسور",
+      "culture2015": "عاصمة الثقافة العربية 2015",
+      "quicklinks": "روابط سريعة",
+      "learnmore": "اعرف المزيد",
+      "copyright": "© 2026 سياحة قسنطينة. جميع الحقوق محفوظة.",
+      "info": "تم تجميع المعلومات من مصادر عامة لأغراض تعليمية."
+    },
+    "lang": {
+      "switch": "English",
+      "current": "العربية"
+    }
+  }
+}

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constantine, Algeria - City of Bridges</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&family=Noto+Sans+Arabic:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">🏛️</span>
+                <span data-i18n="nav.logo">Constantine</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#history" data-i18n="nav.history">History</a></li>
+                <li><a href="#bridges" data-i18n="nav.bridges">Bridges</a></li>
+                <li><a href="#landmarks" data-i18n="nav.landmarks">Landmarks</a></li>
+                <li><a href="#culture" data-i18n="nav.culture">Culture</a></li>
+                <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+                <li>
+                    <button class="lang-switch" id="langSwitch">
+                        <span>🌐</span>
+                        <span data-i18n="lang.switch">العربية</span>
+                    </button>
+                </li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-i18n="hero.title">Constantine</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">The City of Bridges</p>
+            <p class="hero-tagline" data-i18n="hero.tagline">One of the oldest cities in North Africa</p>
+            <a href="#history" class="cta-button" data-i18n="hero.cta">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Quick Facts -->
+    <section class="quick-facts">
+        <div class="container">
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <span class="fact-number">2000+</span>
+                    <span class="fact-label" data-i18n="facts.years">Years of History</span>
+                </div>
+                <div class="fact-card">
+                    <span class="fact-number">8</span>
+                    <span class="fact-label" data-i18n="facts.bridges">Iconic Bridges</span>
+                </div>
+                <div class="fact-card">
+                    <span class="fact-number">694m</span>
+                    <span class="fact-label" data-i18n="facts.elevation">Elevation</span>
+                </div>
+                <div class="fact-card">
+                    <span class="fact-number">450K+</span>
+                    <span class="fact-label" data-i18n="facts.population">Population</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="section history-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="history.title">A Journey Through Time</h2>
+            <p class="section-intro" data-i18n="history.intro">Constantine's history spans over two millennia, making it one of the oldest and most significant cities in North Africa.</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date" data-i18n="history.events.cirta.date">203 BC</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="history.events.cirta.title">Cirta - Numidian Capital</h3>
+                        <p data-i18n="history.events.cirta.desc">Originally called Cirta, the city served as the capital of the Berber kingdom of Numidia. In 112 BC, it was the capital of King Jugurtha.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date" data-i18n="history.events.constantine.date">313 AD</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="history.events.constantine.title">Renamed After Constantine</h3>
+                        <p data-i18n="history.events.constantine.desc">After being destroyed in 311 AD during civil war, the city was rebuilt and renamed "Constantina" in honor of Emperor Constantine the Great.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date" data-i18n="history.events.ottoman.date">1529</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="history.events.ottoman.title">Ottoman Era</h3>
+                        <p data-i18n="history.events.ottoman.desc">The city became part of the Ottoman Empire, ruled by a Turkish bey. Salah Bey (1770-1792) greatly embellished the city with much of the Islamic architecture still visible today.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date" data-i18n="history.events.french.date">1837</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="history.events.french.title">French Colonization</h3>
+                        <p data-i18n="history.events.french.desc">After fierce resistance led by Ahmed Bey, the city was captured by French forces. It remained under French rule until Algeria's independence in 1962.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date" data-i18n="history.events.culture2015.date">2015</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="history.events.culture2015.title">Arab Capital of Culture</h3>
+                        <p data-i18n="history.events.culture2015.desc">Constantine was named the Arab Capital of Culture, celebrating its rich heritage and contributions to Arab and Mediterranean civilization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bridges Section -->
+    <section id="bridges" class="section bridges-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="bridges.title">The City of Bridges</h2>
+            <p class="section-intro" data-i18n="bridges.intro">Constantine's dramatic topography—a rocky plateau divided by the deep Rhumel River gorge—necessitated the construction of magnificent bridges that have become symbols of the city.</p>
+            
+            <div class="bridges-grid">
+                <div class="bridge-card">
+                    <div class="bridge-icon">🌉</div>
+                    <h3 data-i18n="bridges.items.sidimcid.name">Sidi M'Cid Bridge</h3>
+                    <p class="bridge-spec" data-i18n="bridges.items.sidimcid.spec">168m suspension bridge • Opened 1912</p>
+                    <p data-i18n="bridges.items.sidimcid.desc">The most iconic and highest bridge in Constantine. A stunning suspension bridge offering breathtaking views of the gorge below.</p>
+                </div>
+                
+                <div class="bridge-card">
+                    <div class="bridge-icon">🏛️</div>
+                    <h3 data-i18n="bridges.items.babelkantra.name">Bab El Kantra Bridge</h3>
+                    <p class="bridge-spec" data-i18n="bridges.items.babelkantra.spec">Historic bridge • Built 1792</p>
+                    <p data-i18n="bridges.items.babelkantra.desc">The oldest surviving bridge, leading north from the city. A testament to Ottoman engineering excellence.</p>
+                </div>
+                
+                <div class="bridge-card">
+                    <div class="bridge-icon">🏗️</div>
+                    <h3 data-i18n="bridges.items.sidirached.name">Sidi Rached Viaduct</h3>
+                    <p class="bridge-spec" data-i18n="bridges.items.sidirached.spec">447m viaduct • 27 arches • 1912</p>
+                    <p data-i18n="bridges.items.sidirached.desc">A magnificent viaduct designed by Paul Séjourné, featuring 27 elegant arches spanning the gorge.</p>
+                </div>
+                
+                <div class="bridge-card">
+                    <div class="bridge-icon">🚶</div>
+                    <h3 data-i18n="bridges.items.mellahslimane.name">Mellah Slimane Bridge</h3>
+                    <p class="bridge-spec" data-i18n="bridges.items.mellahslimane.spec">Pedestrian bridge • With elevator</p>
+                    <p data-i18n="bridges.items.mellahslimane.desc">A modern pedestrian bridge featuring a glass elevator that descends into the gorge, offering unique perspectives of the city.</p>
+                </div>
+                
+                <div class="bridge-card">
+                    <div class="bridge-icon">💧</div>
+                    <h3 data-i18n="bridges.items.falls.name">Bridge of the Falls</h3>
+                    <p class="bridge-spec" data-i18n="bridges.items.falls.spec">Arched bridge • Built 1925</p>
+                    <p data-i18n="bridges.items.falls.desc">A picturesque series of arches built atop a waterfall, creating one of the most romantic spots in the city.</p>
+                </div>
+                
+                <div class="bridge-card">
+                    <div class="bridge-icon">🛤️</div>
+                    <h3 data-i18n="bridges.items.salahbey.name">Salah Bey Viaduct</h3>
+                    <p class="bridge-spec" data-i18n="bridges.items.salahbey.spec">Modern cable-stayed bridge</p>
+                    <p data-i18n="bridges.items.salahbey.desc">A stunning modern addition to the city's bridge collection, named after the famous Ottoman ruler who beautified Constantine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Landmarks Section -->
+    <section id="landmarks" class="section landmarks-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="landmarks.title">Landmarks & Monuments</h2>
+            <p class="section-intro" data-i18n="landmarks.intro">From ancient ruins to Ottoman palaces, Constantine offers a wealth of historical and cultural sites to explore.</p>
+            
+            <div class="landmarks-grid">
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <div class="landmark-placeholder">🕌</div>
+                    </div>
+                    <div class="landmark-info">
+                        <h3 data-i18n="landmarks.items.emir.name">Emir Abdelkader Mosque</h3>
+                        <p data-i18n="landmarks.items.emir.desc">A magnificent modern mosque, one of the largest in Algeria, serving as both a place of worship and a university.</p>
+                    </div>
+                </div>
+                
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <div class="landmark-placeholder">🏰</div>
+                    </div>
+                    <div class="landmark-info">
+                        <h3 data-i18n="landmarks.items.ahmedbey.name">Ahmed Bey Palace</h3>
+                        <p data-i18n="landmarks.items.ahmedbey.desc">The 19th-century palace of the last Ottoman bey, showcasing traditional Algerian architecture and beautiful gardens.</p>
+                    </div>
+                </div>
+                
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <div class="landmark-placeholder">🏛️</div>
+                    </div>
+                    <div class="landmark-info">
+                        <h3 data-i18n="landmarks.items.cirta.name">Cirta Museum</h3>
+                        <p data-i18n="landmarks.items.cirta.desc">Formerly the Gustave Mercier Museum, housing an impressive collection of ancient and modern Algerian art and artifacts.</p>
+                    </div>
+                </div>
+                
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <div class="landmark-placeholder">📿</div>
+                    </div>
+                    <div class="landmark-info">
+                        <h3 data-i18n="landmarks.items.greatmosque.name">Great Mosque of Constantine</h3>
+                        <p data-i18n="landmarks.items.greatmosque.desc">A historical mosque dating back to 1136, one of the oldest religious buildings in the city.</p>
+                    </div>
+                </div>
+                
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <div class="landmark-placeholder">🗿</div>
+                    </div>
+                    <div class="landmark-info">
+                        <h3 data-i18n="landmarks.items.monument.name">Monument aux Morts</h3>
+                        <p data-i18n="landmarks.items.monument.desc">A WWI memorial monument honoring those who lost their lives, featuring impressive architecture and panoramic views.</p>
+                    </div>
+                </div>
+                
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <div class="landmark-placeholder">🏺</div>
+                    </div>
+                    <div class="landmark-info">
+                        <h3 data-i18n="landmarks.items.tiddis.name">Tiddis Ruins</h3>
+                        <p data-i18n="landmarks.items.tiddis.desc">The ancient Roman city of Tiddis, located nearby, offers a glimpse into the region's Roman past with well-preserved ruins.</p>
+                    </div>
+                </div>
+                
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <div class="landmark-placeholder">🧱</div>
+                    </div>
+                    <div class="landmark-info">
+                        <h3 data-i18n="landmarks.items.aqueduct.name">Roman Aqueduct</h3>
+                        <p data-i18n="landmarks.items.aqueduct.desc">Impressive ruins of the Antonian Roman aqueduct that once supplied water to the ancient city.</p>
+                    </div>
+                </div>
+                
+                <div class="landmark-card">
+                    <div class="landmark-image">
+                        <div class="landmark-placeholder">📚</div>
+                    </div>
+                    <div class="landmark-info">
+                        <h3 data-i18n="landmarks.items.library.name">Municipal Library</h3>
+                        <p data-i18n="landmarks.items.library.desc">A beautiful historic building housing a significant collection of manuscripts and books, reflecting the city's intellectual heritage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture Section -->
+    <section id="culture" class="section culture-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="culture.title">Culture & Traditions</h2>
+            <p class="section-intro" data-i18n="culture.intro">Constantine's rich cultural heritage reflects its diverse history, from Berber and Arab traditions to Ottoman and Mediterranean influences.</p>
+            
+            <div class="culture-grid">
+                <div class="culture-card">
+                    <h3>🎨 <span data-i18n="culture.items.arts.title">Arts & Crafts</span></h3>
+                    <p data-i18n="culture.items.arts.desc">Constantine is renowned for its metalwork, particularly silver jewelry and decorative items. The city's artisans continue centuries-old traditions of intricate craftsmanship, producing beautiful filigree work and ornate pieces that are sought after throughout Algeria.</p>
+                </div>
+                
+                <div class="culture-card">
+                    <h3>🍽️ <span data-i18n="culture.items.cuisine.title">Cuisine</span></h3>
+                    <p data-i18n="culture.items.cuisine.desc">The city's signature dish is Chakhtchoukha, a traditional stew made with torn flatbread (ragout), lamb, and aromatic spices. Other specialties include Lham Lahlou (sweet lamb dish) and various couscous preparations.</p>
+                </div>
+                
+                <div class="culture-card">
+                    <h3>🎵 <span data-i18n="culture.items.music.title">Music</span></h3>
+                    <p data-i18n="culture.items.music.desc">Constantine has a rich musical heritage, particularly Malouf, a form of Andalusian classical music that was recognized by UNESCO as intangible cultural heritage. The city hosts music festivals celebrating this ancient art form.</p>
+                </div>
+                
+                <div class="culture-card">
+                    <h3>🏛️ <span data-i18n="culture.items.architecture.title">Architecture</span></h3>
+                    <p data-i18n="culture.items.architecture.desc">The city showcases a unique blend of architectural styles: ancient Roman ruins, Ottoman-era mosques and palaces, French colonial buildings, and modern structures. The Casbah (Swika) preserves traditional urban architecture.</p>
+                </div>
+                
+                <div class="culture-card">
+                    <h3>📚 <span data-i18n="culture.items.intellectual.title">Intellectual Heritage</span></h3>
+                    <p data-i18n="culture.items.intellectual.desc">As the Arab Capital of Culture 2015, Constantine has a strong intellectual tradition. It's home to several universities and has produced notable scholars, writers, and artists throughout its history.</p>
+                </div>
+                
+                <div class="culture-card">
+                    <h3>🌳 <span data-i18n="culture.items.kasbah.title">The Kasbah</span></h3>
+                    <p data-i18n="culture.items.kasbah.desc">Known locally as Swika, the historic Kasbah quarter features narrow winding streets, traditional houses, and historic mosques. It offers an authentic glimpse into the city's Ottoman past.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="gallery.title">Gallery</h2>
+            <p class="section-intro" data-i18n="gallery.intro">Experience the beauty of Constantine through images of its iconic landmarks and stunning landscapes.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🌉</span>
+                        <p data-i18n="gallery.items.sidimcid">Sidi M'Cid Bridge</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🕌</span>
+                        <p data-i18n="gallery.items.emir">Emir Abdelkader Mosque</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🏰</span>
+                        <p data-i18n="gallery.items.ahmedbey">Ahmed Bey Palace</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🏙️</span>
+                        <p data-i18n="gallery.items.panorama">City Panorama</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🛤️</span>
+                        <p data-i18n="gallery.items.sidirached">Sidi Rached Viaduct</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🌅</span>
+                        <p data-i18n="gallery.items.sunset">Sunset Over the Gorge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Section -->
+    <section id="visit" class="section visit-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="visit.title">Plan Your Visit</h2>
+            
+            <div class="visit-grid">
+                <div class="visit-card">
+                    <h3 data-i18n="visit.location.title">🌍 Location</h3>
+                    <p data-i18n="visit.location.desc">Northeastern Algeria, 80 km from the Mediterranean coast</p>
+                    <p data-i18n="visit.location.coords">Coordinates: 36°21'N 6°36'E</p>
+                    <p data-i18n="visit.location.elevation">Elevation: 694m above sea level</p>
+                </div>
+                
+                <div class="visit-card">
+                    <h3 data-i18n="visit.climate.title">🌤️ Climate</h3>
+                    <p data-i18n="visit.climate.desc">Mediterranean climate with hot, dry summers and mild, moist winters</p>
+                    <p data-i18n="visit.climate.best">Best time to visit: Spring (March-May) and Fall (September-November)</p>
+                </div>
+                
+                <div class="visit-card">
+                    <h3 data-i18n="visit.getting.title">✈️ Getting There</h3>
+                    <p data-i18n="visit.getting.desc">Mohamed Boudiaf International Airport serves the city with connections to major Algerian and international destinations.</p>
+                    <p data-i18n="visit.getting.transport">Trains and buses connect Constantine to Algiers, Oran, and other major cities.</p>
+                </div>
+                
+                <div class="visit-card">
+                    <h3 data-i18n="visit.stay.title">🏨 Where to Stay</h3>
+                    <p data-i18n="visit.stay.desc">Constantine offers a range of accommodations from traditional guesthouses in the Kasbah to modern hotels with views of the famous bridges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 data-i18n="footer.title">Constantine, Algeria</h4>
+                    <p data-i18n="footer.subtitle">The City of Bridges</p>
+                    <p data-i18n="footer.culture2015">Arab Capital of Culture 2015</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.quicklinks">Quick Links</h4>
+                    <ul>
+                        <li><a href="#history" data-i18n="nav.history">History</a></li>
+                        <li><a href="#bridges" data-i18n="nav.bridges">Bridges</a></li>
+                        <li><a href="#landmarks" data-i18n="nav.landmarks">Landmarks</a></li>
+                        <li><a href="#culture" data-i18n="nav.culture">Culture</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.learnmore">Learn More</h4>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Constantine,_Algeria" target="_blank" rel="noopener">Wikipedia</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">© 2026 Constantine Tourism. All rights reserved.</p>
+                <p data-i18n="footer.info">Information compiled from public sources for educational purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
