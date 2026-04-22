@@ -32,7 +32,7 @@ Simply open `index.html` in a web browser.
 
 ```bash
 sudo mkdir -p /var/www/constantine
-sudo cp -r /home/nidami/.openclaw/workspace/con/* /var/www/constantine/
+sudo cp -r /home/user/con/* /var/www/constantine/
 sudo chown -R www-data:www-data /var/www/constantine
 ```
 
